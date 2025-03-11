@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TL6R9LV3');</script>
+    <!-- End Google Tag Manager -->
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NaturLead - Biodegradable Food Containers for Malaysian Businesses</title>
+    <style>
+        :root {
+            --primary-color: #2E7D32;
+            --secondary-color: #81C784;
+            --accent-color: #F9A825;
+            --text-color: #333333;
+            --light-bg: #F5F5F5;
+            --white: #FFFFFF;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+        
+        nav {
+            background-color: var(--secondary-color);
+            padding: 0.5rem;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin: 0 1rem;
+        }
+        
+        nav ul li a {
+            color: var(--white);
+            text-decoration: none;
+            font-weight: bold;
+            padding: 0.5rem;
+            transition: all 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: var(--primary-color);
+            background-color: var(--white);
+            border-radius: 4px;
+        }
+        
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://i.ibb.co/nQZkjPB/food-containers-hero.jpg') center/cover no-repeat;
+            color: var(--white);
+            padding: 6rem 2rem;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: var(--white);
+            padding: 1rem 2rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        
+        .cta-button:hover {
+            background-color: #F57F17;
+        }
+        
+        .features {
+            padding: 4rem 2rem;
+            background-color: var(--white);
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 3rem;
+            color: var(--primary-color);
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .feature-card {
+            background-color: var(--light-bg);
+            border-radius: 8px;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        
+        .feature-title {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+        
+        .benefits {
+            background-color: var(--light-bg);
+            padding: 4rem 2rem;
+        }
+        
+        .benefits-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .benefit-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+            background-color: var(--white);
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .benefit-icon {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-right: 1.5rem;
+            min-width: 60px;
+            text-align: center;
+        }
+        
+        .products {
+            padding: 4rem 2rem;
+            background-color: var(--white);
+        }
+        
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .product-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .product-details {
+            padding: 1.5rem;
+        }
+        
+        .product-title {
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+            color: var(--primary-color);
+        }
+        
+        .contact {
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        
+        .contact-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .contact-info {
+            margin-bottom: 2rem;
+        }
+        
+        footer {
+            background-color: #333;
+            color: var(--white);
+            text-align: center;
+            padding: 2rem;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+        
+        .footer-links a {
+            color: var(--white);
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+            
+            .benefit-item {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .benefit-icon {
+                margin-right: 0;
+                margin-bottom: 1rem;
+            }
+            
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav ul li {
+                margin: 0.5rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TL6R9LV3"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <header>
+        <div class="logo">NaturLead</div>
+        <div class="tagline">Sustainable Solutions for Malaysian Businesses</div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Biodegradable Straws</a></li>
+            <li><a href="food-containers.html">Food Containers</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section class="hero">
+        <h1>Eco-Friendly Biodegradable Food Containers</h1>
+        <p>Elevate your food service with sustainable, high-performance biodegradable containers that keep food fresh while protecting our environment.</p>
+        <a href="https://api.whatsapp.com/send?phone=60192634274&text=Biodegradable%20Food%20Container%20Enquiry" class="cta-button">Contact Us on WhatsApp</a>
+    </section>
+    
+    <section class="features">
+        <h2 class="section-title">Why Choose Our Biodegradable Food Containers?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🌱</div>
+                <h3 class="feature-title">Plant-Based Materials</h3>
+                <p>Made from sustainable resources like bagasse (sugarcane fiber), bamboo, and cornstarch that decompose naturally without harmful residues.</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">🔥</div>
+                <h3 class="feature-title">Heat & Cold Resistant</h3>
+                <p>Maintains structural integrity with hot foods up to 100°C and stays strong with cold or frozen items without leaking or warping.</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">♻️</div>
+                <h3 class="feature-title">Fully Compostable</h3>
+                <p>Breaks down completely within 180 days in commercial composting facilities, returning to the earth as nutrient-rich soil.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="benefits">
+        <h2 class="section-title">Business Benefits</h2>
+        <div class="benefits-container">
+            <div class="benefit-item">
+                <div class="benefit-icon">👍</div>
+                <div>
+                    <h3>Customer Satisfaction</h3>
+                    <p>Meet growing consumer demand for eco-friendly packaging and enhance dining experiences with premium quality containers.</p>
+                </div>
+            </div>
+            
+            <div class="benefit-item">
+                <div class="benefit-icon">📊</div>
+                <div>
+                    <h3>Competitive Advantage</h3>
+                    <p>Differentiate your business in the Malaysian market as an environmentally responsible brand that cares about sustainability.</p>
+                </div>
+            </div>
+            
+            <div class="benefit-item">
+                <div class="benefit-icon">🛒</div>
+                <div>
+                    <h3>Bulk Ordering Options</h3>
+                    <p>Flexible purchasing plans with volume discounts make sustainable choices economically viable for businesses of all sizes.</p>
+                </div>
+            </div>
+            
+            <div class="benefit-item">
+                <div class="benefit-icon">📝</div>
+                <div>
+                    <h3>Regulatory Compliance</h3>
+                    <p>Stay ahead of Malaysia's evolving environmental regulations and plastic reduction initiatives with fully compliant packaging.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="products">
+        <h2 class="section-title">Our Product Range</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="https://i.ibb.co/Lkj2Vn4/takeout-containers.jpg" alt="Takeout Containers" class="product-image">
+                <div class="product-details">
+                    <h3 class="product-title">Takeout Containers</h3>
+                    <p>Perfect for restaurants and food delivery services with secure closures and divider options.</p>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://i.ibb.co/kSfR2Lm/plates-bowls.jpg" alt="Plates and Bowls" class="product-image">
+                <div class="product-details">
+                    <h3 class="product-title">Plates & Bowls</h3>
+                    <p>Sturdy, elegant designs for catering events, food stalls, and casual dining establishments.</p>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://i.ibb.co/Jy8ZNLP/clamshell-containers.jpg" alt="Clamshell Containers" class="product-image">
+                <div class="product-details">
+                    <h3 class="product-title">Clamshell Containers</h3>
+                    <p>Hinged designs for burgers, sandwiches, and other grab-and-go food items.</p>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://i.ibb.co/Qf7Lk3B/custom-packaging.jpg" alt="Custom Packaging Solutions" class="product-image">
+                <div class="product-details">
+                    <h3 class="product-title">Custom Packaging</h3>
+                    <p>Branded containers with your logo and design to enhance brand recognition and customer loyalty.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact">
+        <div class="contact-container">
+            <h2 class="section-title" style="color: white;">Ready to Make the Switch?</h2>
+            <div class="contact-info">
+                <p>Whether you're a restaurant, cafe, food truck, or catering service, our biodegradable food containers offer the perfect sustainable solution for your business.</p>
+                <p>Contact us today for samples, pricing information, and to discuss your specific packaging needs.</p>
+            </div>
+            <a href="https://api.whatsapp.com/send?phone=60192634274&text=Biodegradable%20Food%20Container%20Enquiry" class="cta-button">Contact Us on WhatsApp Now</a>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Biodegradable Straws</a></li>
+            <li><a href="food-containers.html">Food Containers</a></li>
+            <li><a href="#">About Us</a></li>
+        </div>
+        <p>&copy; 2025 NaturLead.com. All rights reserved.</p>
+    </footer>
+</body>
+</html>
